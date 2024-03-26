@@ -3,11 +3,15 @@ body {
 }
 
 .section-tittle {
-    font-family: Pacifico, cursive;
+    font-family: Mr Dafoe, cursive;
 }
 
 .text-colored {
     color: #fff;
+}
+
+.text-golden {
+    color: #c49949;
 }
 
 .navbar {
@@ -78,6 +82,10 @@ body {
 
 h2 {
     color: #c49949;
+}
+
+#fale-conosco label {
+    color: #000;
 }
 
 @media (max-width: 767px) {
