@@ -7,15 +7,15 @@ body {
 }
 
 .text-colored {
-    color: #e15f41;
+    color: #fff;
 }
 
 .navbar {
-    background-color: #e15f41;
+    background-color: #c49949;
 }
 
 .navbar-toggler {
-    background-color: #ffeae6;
+    background-color: #c49949;
 }
 
 .navbar-brand,
@@ -26,21 +26,19 @@ body {
 
 .nav-produtos .nav-link.active,
 #fale-conosco button {
-    background-color: #e15f41;
+    background-color: #c49949;
     color: #fff;
 }
 
 #cabecalho .nav .nav-link.active {
     background-color: #fff;
-    color: #e15f41;
+    color: #c49949;
 }
 
 .nav-produtos .nav-link:hover {
-    color: #e15f41;
+    color: #fff;
 }
 
-.carousel-control-prev-icon,
-.carousel-control-next-icon,
 .indicators{
     filter: invert(1);
 }
@@ -51,7 +49,7 @@ body {
 
 #sobre-mim,
 #produtos {
-    background-color: #ffeae6;
+    background-color: #000;
 }
 
 .price {
@@ -65,6 +63,21 @@ body {
 
 .social-links a {
     text-decoration: none;
+}
+
+.btn {
+    background-color: #c49949;
+    border-color: #c49949;
+}
+
+#produtos p,
+#produtos .price,
+#sobre-mim p {
+    color: #fff;
+}
+
+h2 {
+    color: #c49949;
 }
 
 @media (max-width: 767px) {
