@@ -3,6 +3,10 @@ body {
 }
 
 .section-tittle {
+    font-family: Pacifico, cursive;
+}
+
+.tittle-cabecalho {
     font-family: Mr Dafoe, cursive;
 }
 
@@ -69,7 +73,8 @@ body {
     text-decoration: none;
 }
 
-.btn {
+.btn,
+.btn:hover {
     background-color: #c49949;
     border-color: #c49949;
 }
